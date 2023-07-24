@@ -6,4 +6,6 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
   },
+  viewportWidth: 1200,
+  viewportHeight: 800
 });
