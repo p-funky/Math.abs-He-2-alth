@@ -16,4 +16,9 @@ describe("Helium Health Contact Form Test Suite", () => {
     contactPage.verifySubmitButtonPresent();
   });
 
+  it("should show validation messages when form is submitted without input", () => {
+    contactPage.verifySubmitButtonPresent();
+    contactPage.validateFormSubmissionWithoutInput();
+  });
+  
 });
